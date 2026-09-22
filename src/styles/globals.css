@@ -1,3 +1,22 @@
-@import "tailwindcss"
+@import "tailwindcss";
+
+html,
+body,
+#root {
+  margin: 0;
+  width: 100%;
+  min-height: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  background: #111111;
+  font-family: Inter, Arial, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
 
 /* Importar fonte , definir variávies, criar estilos personalizados, para contemplar para dentro do tailwind, alterar estilos do tailwind */
