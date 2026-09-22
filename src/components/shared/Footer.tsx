@@ -13,14 +13,14 @@ const Footer = () => {
           <div className="flex items-center gap-4">
             <a
               href="#"
-              className="text-[#d4af37] hover:text-white transition-colors duration-300 cursor-pointer"
+              className="text-yellow-primary hover:text-white transition-colors duration-300 cursor-pointer"
             >
               <FaFacebook className="text-4xl" />
             </a>
 
             <a
               href="#"
-              className="text-[#d4af37] hover:text-white transition-colors duration-30 cursor-pointer"
+              className="text-yellow-primary hover:text-white transition-colors duration-30 cursor-pointer"
             >
               <FaInstagram className="text-4xl" />
             </a>

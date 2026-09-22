@@ -1,13 +1,17 @@
 @import "tailwindcss";
 
-html,
+@theme {
+  --color-yellow-primary: #d4af37;
+}
+
+/* html,
 body,
 #root {
   margin: 0;
   width: 100%;
   min-height: 100%;
   height: 100%;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 body {
@@ -19,4 +23,4 @@ body {
   box-sizing: border-box;
 }
 
-/* Importar fonte , definir variávies, criar estilos personalizados, para contemplar para dentro do tailwind, alterar estilos do tailwind */
+Importar fonte , definir variávies, criar estilos personalizados, para contemplar para dentro do tailwind, alterar estilos do tailwind */
